@@ -2,17 +2,13 @@
 
 ## Documentación
 Este proyecto tiene como finalidad aplicar técnicas de **análisis de datos** y **aprendizaje automático** al ámbito musical.
-Se parte de datasets que contienen miles de canciones de Spotify, junto con sus características técnicas de sonido y de popliaridad.
+Se parte de datasets que contienen miles de canciones de Spotify, junto con sus características técnicas de sonido y de populiaridad.
 
 Para ello hemos utilizado uv, jupyter y librerias de gráficos y modelos de python.
 
-uv:
 <pre>uv venv</pre>
-<pre>python -m pip install xgboost</pre>
-<pre>uv add pandas matplotlib seaborn</pre>
 <pre> pip install -r requirements.txt</pre>
-<pre>pip install pandas</pre>
-<pre>python -m pip install --upgrade pip</pre>
+<pre>python -m pip install xgboost</pre>
 
 El objetivo principal es explorar estas variables, comprender sus relaciones y entrenar modelos supervisados capaces de **clasificar géneros musicales**.
 
@@ -23,7 +19,5 @@ El objetivo principal es explorar estas variables, comprender sus relaciones y e
 <li>Entrenar y evaluar distintos modelos predictivos (Gradient Boosting y Random Forest).</li>
 </ul>
 
-**Autores:** Bryan Zabala, Alexandru Popa, Nestor Tirado y Noé Rodríguez.
-**Curso:** 2º DAW – Desarrollo de Aplicaciones Web
-**Asignatura:** Inteligencia Artificial(Javier Pérez Arteaga)
+**Autores:** Néstor Tirado, Bryan Zabala, Alexandru Popa, y Noé Rodríguez.
 
